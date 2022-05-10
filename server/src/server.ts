@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://nlw-return-impulse-production-2109.up.railway.app/',
   })
 );
 app.use(express.json({ limit: '50mb' }));
