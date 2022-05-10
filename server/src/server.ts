@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://nlw-return-impulse-five-chi.vercel.app/',
+    origin: `localhost:${process.env.PORT || 3333}`,
   })
 );
 app.use(express.json({ limit: '50mb' }));
