@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://nlw-return-impulse-production-2109.up.railway.app/',
+    origin: 'https://nlw-return-impulse-five-chi.vercel.app/',
   })
 );
 app.use(express.json({ limit: '50mb' }));
